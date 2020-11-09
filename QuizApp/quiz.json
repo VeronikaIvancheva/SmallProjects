@@ -1,0 +1,49 @@
+{
+    "status": "success",
+    "data": [{
+            "question": "Which are the HTTP verbs",
+            "answer": "Post, Get, Put, Patch, Delete",
+            "options": ["option 1", "option 2", "option 3", "option 4"]
+        },
+        {
+            "question": "What are HTTP status codes? ",
+            "answer": "100 - info, 200 - success, 300 - redirecting, 400 - client-side error, 500 - server-side error",
+            "options": ["100 - info", "200 - success", "300 - redirecting", "400 - client-side error", "500 - server-side error"]
+        },
+        {
+            "question": "What is WebListener?",
+            "answer": "Уеб сървър за ASP.NET, вървящ само на Windows. Той е алтернатива на Kestrel и може да се използва за директно свързване с интернет без да се използва IIS.",
+            "options": ["option 1", "option 2", "option 3", "option 4"]
+        },
+        {
+            "question": "What is Model Binding?",
+            "answer": "Процес, при който ASP.NET maps информацията от идващите заявки към параметрите в action метода",
+            "options": ["option 1", "option 2", "option 3", "option 4"]
+        },
+        {
+            "question": "What are the differences between client-side and server-side validation?",
+            "answer": "Client-side – случва се предимно в браузъра, посредством JS. Сърварът предимно насочва потребителя с това, какво трабва да се input-не. Може лесно да бъде disabled. Server-side – се случва на сървара. Използва се, за да предотвърти влизането на грешни данни в датабазата.",
+            "options": ["option 1", "option 2", "Server-side – се случва на сървара. Използва се, за да предотвърти влизането на грешни данни в датабазата", "Client-side – случва се предимно в браузъра, посредством JS. Сърварът предимно насочва потребителя с това, какво трабва да се input-не. Може лесно да бъде disabled"]
+        },
+        {
+            "question": "What are the benefits of each type of validation?",
+            "answer": "client side - предлага по-добър user experience; server side – чисто състояние на приложението и датабазата",
+            "options": ["option 1", "option 2", "server side – чисто състояние на приложението и датабазата", "client side - предлага по-добър user experience"]
+        },
+        {
+            "question": "What is a ViewModel?",
+            "answer": "Клас, който представлява информацията, която искаме да използваме в определена страница (view)",
+            "options": ["option 1", "option 2", "option 3", "option 4"]
+        },
+        {
+            "question": "What are query parameters in the URL?",
+            "answer": "Допълнителни параметри, добавени в края на заявката. Могат да бъдат включени в actions. Появяват се след ? в url",
+            "options": ["option 1", "option 2", "option 3", "option 4"]
+        },
+        {
+            "question": "What is routing?",
+            "answer": "Процесът на mapping на URL, от идващата заявка, в правилния Action в правилния Controller, който може да върне правилната информация",
+            "options": ["Selects the right controller to handle a request", "option 2", "option 3", "option 4"]
+        }
+    ]
+}
