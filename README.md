@@ -5,8 +5,8 @@ Simple web quiz game.
 
 ![](https://github.com/VeronikaIvancheva/SmallProjects/blob/main/QuizApp/QuizGame.jpg)
 
-### 2. World Search Game
-Simple web world search game.
+### 2. Word Search Game
+Simple web word search game.
 
 
 
