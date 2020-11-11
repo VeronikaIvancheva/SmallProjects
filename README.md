@@ -8,7 +8,7 @@ Simple web quiz game.
 ### 2. Word Search Game
 Simple web word search game.
 
-
+![](https://github.com/VeronikaIvancheva/SmallProjects/blob/main/WordSearch/WordSearch.jpg)
 
 ## Technologies
 * JavaScript
