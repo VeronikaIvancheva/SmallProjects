@@ -7,7 +7,7 @@ Simple console guessing game.
 
 
 
-![](https://github.com/VeronikaIvancheva/SmallProjects/blob/main/GuessingGame/GuessingGame.jpg)
+![](https://github.com/VeronikaIvancheva/SmallProjects/blob/main/C%23%20Apps/SimpleConsoleApps/GuessingGame/GuessingGame.jpg)
 
 
 
