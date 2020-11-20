@@ -6,10 +6,10 @@ namespace GuessingGame
     {
         public static void MainLogic()
         {
-            Console.WriteLine(Messages.GameRules);
-            Console.WriteLine(Messages.StartMessage);
+            startAgain: int generatedRandomNumber = RandomNumber.GetRandomNumber();
 
-            int generatedRandomNumber = RandomNumber.GetRandomNumber();
+            Print.WelcomeMessage();
+
             int userGuess = 0;
             string input;
 
@@ -19,25 +19,33 @@ namespace GuessingGame
 
                 if (input == "exit")
                 {
-                    Console.WriteLine(Messages.NextTime);
+                    Print.PrintMessage(Messages.NextTime);
                     break;
                 }
 
-                userGuess = Convert.ToInt32(input);
+                try
+                {
+                    userGuess = Convert.ToInt32(input);
 
-                if (userGuess > generatedRandomNumber)
-                {
-                    Console.WriteLine(Messages.High);
+                    if (userGuess > generatedRandomNumber)
+                    {
+                        Print.PrintMessage(Messages.High);
+                    }
+                    else if (userGuess < generatedRandomNumber)
+                    {
+                        Print.PrintMessage(Messages.Low);
+                    }
                 }
-                else if (userGuess < generatedRandomNumber)
+                catch (Exception)
                 {
-                    Console.WriteLine(Messages.Low);
+                    Print.PrintMessage(Messages.NeedNumber);
                 }
             }
 
             if (userGuess == generatedRandomNumber)
             {
-                Console.WriteLine(Messages.Won);
+                Print.PrintMessage(Messages.Won);
+                goto startAgain;
             }
         }
     }
