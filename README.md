@@ -1,16 +1,14 @@
-# SmallProjects
+# SmallProjects:
 
-### 1. Quiz Game
-Simple web quiz game.
+A project containing small applications.
 
-![](https://github.com/VeronikaIvancheva/SmallProjects/blob/main/QuizApp/QuizGame.jpg)
 
-### 2. Word Search Game
-Simple web word search game.
+### 1. JavaScript apps
 
-![](https://github.com/VeronikaIvancheva/SmallProjects/blob/main/WordSearch/WordSearch.jpg)
 
-## Technologies
-* JavaScript
-* HTML
-* CSS
+### 2. C# apps
+
+The C# folder is divided into 2 sections
+
+* Simple console applications
+* WinForms applications
