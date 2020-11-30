@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 1%;
+    padding: 1%;
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+
+    color: greenyellow;
+    box-shadow: 0 8px 8px -8px greenyellow;
+
+}
+
+h5{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input[type=text] {
+    width: 50%;
+    margin-top: 20px;
+    padding: 12px;
+
+    border: 1px solid rgb(20, 61, 20);
+    border-radius: 4px;
+
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+button {
+    margin-top: 25px;
+    margin-left: 10px;
+    padding: 15px 35px;
+
+    background: rgb(159, 236, 159);
+    color: white;
+
+    border: 1px solid darkolivegreen;
+    border-radius: 20px;
+
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid rgb(20, 61, 20);
+    background: greenyellow;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 45%;
+    margin: 1%;
+    padding: 1%;
+
+    text-align: center;
+    border: 1px solid rgb(20, 61, 20);
+
+    background: white;
+}
+
+.info:hover {
+    box-shadow: 0 8px 8px -8px greenyellow;
+}
+
+.details {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 1%;
+    margin-left: 5%;
+    margin-top: 20px;
+    padding: 2%;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 20px;
+
+    color: seagreen;
+}
+
+@media only screen and (min-width: 350px) and (max-width: 480px){
+
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+        width: 95%;
+        margin: 1%;
+        padding: 1%;
+    
+        text-align: center;
+        border: 1px solid rgb(20, 61, 20);
+    }
+}
