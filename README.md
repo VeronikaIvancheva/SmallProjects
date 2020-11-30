@@ -1,7 +1,7 @@
 # SmallProjects:
 
 A project containing small applications.
-
+ You can see more info in the README.md in each of the sections.
 
 ### 1. JavaScript apps
 
@@ -10,3 +10,4 @@ A project containing small applications.
 
 ### 2. C# apps
 - Guessing Game
+- RPG Game
