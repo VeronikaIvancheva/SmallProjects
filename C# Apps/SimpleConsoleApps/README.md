@@ -18,9 +18,7 @@ The player have 4 options to choose from: "Single attack", "Three strike attack"
 There are messages to keep the player inform which ability he choose, how much damage/heal he calculated and how much health the enemy/he has left. If skill from the "restricted" section is ready - the player get message and has reminded about his chance to use it in every turn.
 
 
-The enemy choose from 3 different options: 
-
-"Single attack", "Defend" or "Heal".
+The enemy choose from 3 different options: "Single attack", "Defend" or "Heal".
 
 When using "Defend", both - the player or the enemy, are blocking the next first strike.
 
