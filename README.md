@@ -7,6 +7,7 @@ A project containing small applications.
 
 - Word search game
 - Quiz game
+- Weather app
 
 ### 2. C# apps
 - Guessing Game
