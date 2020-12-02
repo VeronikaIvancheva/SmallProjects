@@ -13,3 +13,4 @@ A project containing small applications.
 ### 2. C# apps
 - Guessing Game
 - RPG Game
+- Rock, Paper, Scissors Game
