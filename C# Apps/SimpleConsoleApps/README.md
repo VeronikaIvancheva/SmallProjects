@@ -3,7 +3,7 @@
 
 
 ### 1. Guessing Game:
-Simple console guessing game.
+Simple console guessing game. The player can choose either to stop the game or to start again - without application restart. 
 
 ![](https://github.com/VeronikaIvancheva/SmallProjects/blob/main/C%23%20Apps/SimpleConsoleApps/GuessingGame/GuessingGame.jpg)
 
@@ -24,6 +24,11 @@ When using "Defend", both - the player or the enemy, are blocking the next first
 
 ![](https://github.com/VeronikaIvancheva/SmallProjects/blob/main/C%23%20Apps/SimpleConsoleApps/RPG/RPG.jpg)
 
+### 2. RPS Game:
+
+Simple console Rock, Paper, Scissors game. In the begining of the game the player can choose the maximum number of points to play. When the game is over the player has a choice either to play again or to stop.
+
+![](https://github.com/VeronikaIvancheva/SmallProjects/blob/main/C%23%20Apps/SimpleConsoleApps/RPSGame/RPSGame.jpg)
 
 ## Technologies
 
