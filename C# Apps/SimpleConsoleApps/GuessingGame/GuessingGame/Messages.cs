@@ -10,6 +10,7 @@ namespace GuessingGame
         public const string NeedNumber = "You must enter a number";
 
         #region Start Messages
+        public const string Welcome = "Welcome!";
         public const string GeneratedNumber = "Generated random number.";
         public const string GameRules = "Guess the number: range 1 to 1000";
         public const string EndGameRule = "If you get tired - type 'exit' to stop the game.";

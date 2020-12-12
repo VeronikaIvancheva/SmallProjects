@@ -6,11 +6,26 @@ namespace GuessingGame
     {
         public static void MainLogic()
         {
+            Print.PrintMessage(Messages.Welcome);
+
             startAgain: int generatedRandomNumber = RandomNumber.GetRandomNumber();
 
-            Print.WelcomeMessage();
+            Print.PrintMessage(Messages.GeneratedNumber);
+            Print.GameRulesMessages();
 
             int userGuess = 0;
+
+            userGuess = GameLoop(generatedRandomNumber, userGuess);
+
+            if (userGuess == generatedRandomNumber)
+            {
+                Print.PrintMessage(Messages.Won);
+                goto startAgain;
+            }
+        }
+
+        private static int GameLoop(int generatedRandomNumber, int userGuess)
+        {
             string input;
 
             while (generatedRandomNumber != userGuess)
@@ -42,11 +57,7 @@ namespace GuessingGame
                 }
             }
 
-            if (userGuess == generatedRandomNumber)
-            {
-                Print.PrintMessage(Messages.Won);
-                goto startAgain;
-            }
+            return userGuess;
         }
     }
 }
