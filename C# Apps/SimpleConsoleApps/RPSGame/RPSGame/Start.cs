@@ -7,33 +7,41 @@ namespace RPSGame
     {
         public static void StartGame()
         {
-            int computerScore = 0;
-            int playerScore = 0;
-
-            Random random = new Random();
-
-            MessagesGroups.StartMessages();
-
-        startAgain:
-            MessagesGroups.RoundsMessages();
-
-            string num = Console.ReadLine();
-            int number = Validations.CheckIfRoundsNumberIsValid(num);
-
-            MessagesGroups.GameRules(number);
-            GameLoop.Loop(playerScore, computerScore, number, random);
-
-            string response = PlayAgain();
-
-            if (response == "y")
+            try
             {
-                playerScore = 0;
-                computerScore = 0;
+                int computerScore = 0;
+                int playerScore = 0;
 
-                goto startAgain;
+                Random random = new Random();
+
+                MessagesGroups.StartMessages();
+
+            startAgain:
+                MessagesGroups.RoundsMessages();
+
+                string num = Console.ReadLine();
+                int number = Validations.CheckIfRoundsNumberIsValid(num);
+
+                MessagesGroups.GameRules(number);
+                GameLoop.Loop(playerScore, computerScore, number, random);
+
+                string response = PlayAgain();
+
+                if (response == "y")
+                {
+                    playerScore = 0;
+                    computerScore = 0;
+
+                    goto startAgain;
+                }
+
+                Print.PrintMessage(Messages.GoodByeMessage);
             }
-
-            Print.PrintMessage(Messages.GoodByeMessage);
+            catch (Exception e)
+            {
+                Print.PrintMessage(e);
+            }
+            
         }
 
         /// <summary>

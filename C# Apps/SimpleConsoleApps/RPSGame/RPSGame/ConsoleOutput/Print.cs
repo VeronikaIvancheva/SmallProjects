@@ -18,5 +18,10 @@ namespace RPSGame.ConsoleOutput
         {
             Console.WriteLine(message, number);
         }
+
+        public static void PrintMessage(Exception e)
+        {
+            Console.WriteLine(e);
+        }
     }
 }
