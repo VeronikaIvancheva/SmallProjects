@@ -30,7 +30,7 @@ namespace RPSGame.ConsoleOutput
 
         #region Game rules
         public const string GameRules = "The game continue till someone make {0} points.";
-        public const string InputRiles = " For Rock, please enter - R \n For Paper, please enter - P \n For Scissors, please enter - S";
+        public const string InputRules = " For Rock, please enter - R \n For Paper, please enter - P \n For Scissors, please enter - S";
         #endregion
     }
 }

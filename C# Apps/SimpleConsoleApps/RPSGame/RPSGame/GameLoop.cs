@@ -11,7 +11,7 @@ namespace RPSGame
             {
                 string playerGuess = Console.ReadLine().ToLower();
 
-                CheckIf.CheckIfPlayerInputIsValid(playerGuess);
+                Validations.CheckIfPlayerInputIsValid(playerGuess);
 
                 string computerGuess = ComputerChoise(random.Next(1, 3));
 

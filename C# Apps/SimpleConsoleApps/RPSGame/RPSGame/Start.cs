@@ -18,7 +18,7 @@ namespace RPSGame
             MessagesGroups.RoundsMessages();
 
             string num = Console.ReadLine();
-            int number = CheckIf.CheckIfRoundsNumberIsValid(num);
+            int number = Validations.CheckIfRoundsNumberIsValid(num);
 
             MessagesGroups.GameRules(number);
             GameLoop.Loop(playerScore, computerScore, number, random);

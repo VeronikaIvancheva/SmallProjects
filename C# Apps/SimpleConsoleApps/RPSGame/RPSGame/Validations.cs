@@ -3,7 +3,7 @@ using System;
 
 namespace RPSGame
 {
-    public static class CheckIf
+    public static class Validations
     {
         /// <summary>
         /// Checking if the player is entered a valid letter and if not - loop till it is valid

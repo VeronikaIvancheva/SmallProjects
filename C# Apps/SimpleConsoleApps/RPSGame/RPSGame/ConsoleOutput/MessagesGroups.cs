@@ -21,10 +21,13 @@ namespace RPSGame.ConsoleOutput
             Print.PrintMessage(Messages.EnterANumber);
         }
 
+        /// <summary>
+        /// This class prints the game rules messages to the console
+        /// </summary>
         public static void GameRules(int number)
         {
             Print.PrintMessage(Messages.GameRules, number);
-            Print.PrintMessage(Messages.InputRiles);
+            Print.PrintMessage(Messages.InputRules);
         }
     }
 }
