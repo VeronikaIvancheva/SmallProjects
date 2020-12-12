@@ -16,5 +16,10 @@ namespace TheShellGame.Message
         {
             Console.WriteLine(message, number);
         }
+
+        public static void Message(Exception exception)
+        {
+            Console.WriteLine(exception);
+        }
     }
 }
