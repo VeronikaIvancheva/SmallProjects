@@ -9,6 +9,7 @@ A project containing small applications.
 - Quiz game
 - Weather app
 - Text adventure game
+- Mad Lib generator
 
 ### 2. C# apps
 - Guessing Game

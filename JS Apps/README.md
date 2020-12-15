@@ -20,6 +20,11 @@ Simple text adventure game with a few options.
 
 ![](https://github.com/VeronikaIvancheva/SmallProjects/blob/main/JS%20Apps/TextAdventure/TextAdventure.jpg)
 
+### 5. Mad Lib generator
+Simple Mad Lib game.
+
+![](https://github.com/VeronikaIvancheva/SmallProjects/blob/main/JS%20Apps/MadLibs/MadLibs.jpg)
+
 ## Technologies
 * JavaScript
 * HTML
