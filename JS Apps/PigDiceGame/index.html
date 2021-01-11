@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>Pig Game</title>
+  </head>
+
+  <body>
+    <main>
+      <section class="player player0 playerActive">
+        <h2 class="name" id="name0">Player 1</h2>
+        <p class="score" id="score0">0</p>
+        <div class="current">
+          <p class="currentLabel">Current</p>
+          <p class="currentScore" id="current0">0</p>
+        </div>
+      </section>
+      <section class="player player1">
+        <h2 class="name" id="name1">Player 2</h2>
+        <p class="score" id="score1">0</p>
+        <div class="current">
+          <p class="currentLabel">Current</p>
+          <p class="currentScore" id="current1">0</p>
+        </div>
+      </section>
+
+      <img src="dice-5.png" alt="Playing dice" class="dice" />
+      <button class="btn btn-new"><img class="iconSt" src="icons/arrow-clockwise.svg"> New game</button>
+      <button class="btn btn-roll"><img class="iconSt" src="icons/dice-5.svg"> Roll dice</button>
+      <button class="btn btn-hold"><img class="iconSt" src="icons/download.svg"> Hold</button>
+
+      <button class="btn btn-rules" onclick="rules()">
+        <img class="iconSt" src="icons/help_outline-black-48dp.svg">
+      </button>
+    </main>
+    <script src="action.js"></script>
+  </body>
+</html>

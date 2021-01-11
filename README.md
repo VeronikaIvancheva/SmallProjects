@@ -10,6 +10,7 @@ A project containing small applications.
 - Weather app
 - Text adventure game
 - Mad Lib generator
+- Pig (dice) Game
 
 ### 2. C# apps
 - Guessing Game

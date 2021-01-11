@@ -25,6 +25,12 @@ Simple Mad Lib game.
 
 ![](https://github.com/VeronikaIvancheva/SmallProjects/blob/main/JS%20Apps/MadLibs/MadLibs.jpg)
 
+### 6. Pig (dice) Game
+The Pig game - following the original rules.
+
+![](https://github.com/VeronikaIvancheva/SmallProjects/blob/main/JS%20Apps/PigDiceGame/PigGame.jpg)
+
+
 ## Technologies
 * JavaScript
 * HTML
